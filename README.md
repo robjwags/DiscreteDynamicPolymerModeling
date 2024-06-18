@@ -2,8 +2,8 @@
 Discrete dynamic polymer modeling
 
 # Main README for "A foundational framework for the mesoscale modeling of dynamic elastomers and gels"
-% Robert J. Wagner
-% June 12th, 2024
+Robert J. Wagner
+June 12th, 2024
 
 
 # DESCRIPTION
