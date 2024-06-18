@@ -1,16 +1,12 @@
 # DiscreteDynamicPolymerModeling
 Discrete dynamic polymer modeling
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Main README for "A foundational framework for the mesoscale modeling of dynamic elastomers and gels"
- Robert J. Wagner
- June 12th, 2024
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# Main README for "A foundational framework for the mesoscale modeling of dynamic elastomers and gels"
+# Robert J. Wagner
+# June 12th, 2024
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% DESCRIPTION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# DESCRIPTION
 
  This folder contains the necessary codes written in MATLAB2022a required for the following tasks in relation to this manuscript:
  1. Generating initial topology files (.txt) and input files (.in) for LAMMPS
@@ -18,9 +14,7 @@ Main README for "A foundational framework for the mesoscale modeling of dynamic 
  3. Compiling the raw .dump files output from LAMMPS and storing them as .m structures for post-processing
  4. Post-processing and analyzing the compiled data for each section of the manuscript
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% REQUIRED SOFTWARE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# REQUIRED SOFTWARE
 
  This source code requires install of MATLAB2022a or later
  The following LAMMPS packages must also be built to run these studies using cpus (see INSTALL instructions below for install guide):
@@ -33,9 +27,7 @@ Main README for "A foundational framework for the mesoscale modeling of dynamic 
 	F) GRANULAR
 	G) RIGID
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% DIRECTORY ORGANIZATION & STUDY PURPOSES
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# DIRECTORY ORGANIZATION & STUDY PURPOSES
 
  Several distinct studies with unique particle topologies and bonding conditions were conducted in the scope of this work. Each study has its own folder. Distinct studies are orgranized as listed below. Visit each subdirectory to find a study-specific README instructing code usage:
 
@@ -74,9 +66,7 @@ Main README for "A foundational framework for the mesoscale modeling of dynamic 
  4. NetworkScale/StressRlx/2024_03_01_Main (Relates to Sections 4 and 5 of manuscript)
 	See the dedicated README within this directory for a detailed explanation of contents
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% INSTALL INSTRUCTIONS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# INSTALL INSTRUCTIONS
 
 1) If using Windows, install WSL, update everything and open WSL
 
