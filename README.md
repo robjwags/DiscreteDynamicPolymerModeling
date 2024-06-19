@@ -1,14 +1,9 @@
-# DiscreteDynamicPolymerModeling
-Discrete dynamic polymer modeling
-
-# Main README for "A foundational framework for the mesoscale modeling of dynamic elastomers and gels"
-Robert J. Wagner
+Robert J. Wagner \
 June 12th, 2024
 
-
 # DESCRIPTION
-
- This folder contains the necessary codes written in MATLAB2022a required for the following tasks in relation to this manuscript:
+This is the Main README for "A foundational framework for the mesoscale modeling of dynamic elastomers and gels" \
+This folder contains the necessary codes written in MATLAB2022a required for the following tasks in relation to this manuscript:
  1. Generating initial topology files (.txt) and input files (.in) for LAMMPS
  2. Running LAMMPS using the <sytem(command)> line in MATLAB2022a and .in/.txt files from step 1
  3. Compiling the raw .dump files output from LAMMPS and storing them as .m structures for post-processing
