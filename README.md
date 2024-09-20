@@ -26,39 +26,39 @@ This folder contains the necessary codes written in MATLAB2022a required for the
 
 Several distinct studies with unique particle topologies and bonding conditions were conducted in the scope of this work. Each study has its own folder. Distinct studies are orgranized as listed below. Visit each subdirectory to find a study-specific README instructing code usage:
 
- 1. SingleChain/ (Section 3.1 of manuscript)\
-	A. ForceStudy/  (VALIDATION STUDY)\
-		i. Description: A single bead-spring chain pulled apart slowly and held at specified end-to-end lengths for some long duration. \
-		ii. Measured: Total chain force end-to-end length \
-		iii. Goal: To validate bead-spring force against the analytical relation for Langevin chains, and calibrate the finitely extensible, nonlinear elastic potential used for Kuhn segments 
-	
-	B. DiffusionStudy/  (Section 3.1 of manuscript) \
+ 1. SingleChain/ (SI Sections S3-S4 of manuscript)\
+	A. DiffusionStudy/  (SI Section S3 of manuscript) \
 		i. Description: A single chain with one end tethered (i.e., fixed in space) and the other (and intermediate portions of the chain, for bead-spring models) subject to Brownian diffusion. \
 		ii. Measured: End-to-end distributions and MSD MSD (net, radial, and tangential) of an ensemble of many such chains with respect to their anchoring node's position. \
 		iii. Goal: to confirm agreement between mesoscale, bead-spring, and Rouse models in the exploratory sub-diffusion of open end groups attached to tethered chains.
 
- 3. SingleBond/ (Relates to Appendix E of manuscript) \
-	A. Check_ka/ (VALIDATION STUDY) \
+ 	B. ForceStudy/  (SI Section S4 of manuscript)\
+		i. Description: A single bead-spring chain pulled apart slowly and held at specified end-to-end lengths for some long duration. \
+		ii. Measured: Total chain force end-to-end length \
+		iii. Goal: To validate bead-spring force against the analytical relation for Langevin chains, and calibrate the finitely extensible, nonlinear elastic potential used for Kuhn segments 
+	
+ 3. SingleBond/ (Relates to SI Sections S7-S8 of manuscript) \
+	A. Check_ka/ (Relates to SI Section S7 of manuscript) \
 		i. Description: Pairs of adjacent, fixed stickers within attachment cutoff distance, b, of each other that are allowed to bind and unbind in time. \
 		ii. Measured: ka and kd \
 		iii. Goal: To confirm that the attachment and detachment rates set a priori match those that are measured as outputs from the code. 
 
-	B. SingleKinetics/ (Relates to Section 3.2 of manuscript) \
+	B. SingleKinetics/ (Relates to SI Section S8 of manuscript) \
 		i. Description: A single tethered chain whose fixed end is stable and whose free end is subject to Brownian diffusion. A fixed sticker node is also placed distance, d, from the fixed stable end of the tethered chain such that it may bind/unbind with the open sticker of the chain. \
 		ii. Measured: ka as a function of number of Kuhn segments (N), separation distance (d), and activation energy (epsilon_a) \
 		iii. Goal: To confirm agreement between the pairwise rates of attachment and detachment between the mesoscale and bead-spring models. Also to develop scaling theory for pairwise attachment kinetics that might be useable for implicit form of attachment probability. 
 
-	C. PairwiseKinetics/ (Relates to Appendix F of manuscript) \
+	C. PairwiseKinetics/ (Relates to SI Section S8 of manuscript) \
 		i. Description: Two tethered chains whose fixed ends are stable nodes separated by a distance, d, and whose free end are stickers subjected to Brownian diffusion. The free ends of the chains may bind/unbind. \
 		ii. Measured: ka as a function of number of Kuhn segments (N), separation distance (d), and activation energy (epsilon_a) \
 		iii. Goal: To confirm agreement between the pairwise rates of attachment and detachment between the mesoscale and bead-spring models and confirm applicability of scaling theory to two-chain (as opposed to one-chain) scenario.
 
- 4. BondExchange/ (Relates to Section 3.3 of manuscript \
+ 4. BondExchange/ (Relates to SI Section S9 of manuscript) \
 		i. Description: An ensemble of chains, each with one end fixed in space, are allowed to undergo tethered diffusion and bond/unbond at their distal ends. The fixed ends are arranged in a 3D grid with prescribed spacing separation, d. \
 		ii. Measured: ka, kexc, krpt, kd, tau_a, tau_d, tau_exc, tau_rpt, tau_rnm, fa, and fd as functions of fixed node separation distance, d. \
 		iii. Goal: To evaluate agreement in the models' bond kinetics and partner exchange kinetics as a function of chain concentration and chain length.
 
- 5. NetworkScale/StressRlx/2024_03_01_Main (Relates to Sections 4 and 5 of manuscript) \
+ 5. NetworkScale/StressRlx/2024_03_01_Main (Relates to Sections 4 and 5, as well as SI Sections S5 and S10 of manuscript) \
 	See the dedicated README within this directory for a detailed explanation of contents
 
 # INSTALL INSTRUCTIONS
